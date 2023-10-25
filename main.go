@@ -1,10 +1,12 @@
 package main
 
 import (
-	"evenorodd"
 	"fmt"
+	"removeduplicates"
 )
 
 func main() {
-	fmt.Println(evenorodd.EvenOrOdd(1))
+	sliceBoi := []int{1,2,1,3,1}
+	result := removeduplicates.RemoveDuplicates(sliceBoi)
+	fmt.Println(result)
 }
