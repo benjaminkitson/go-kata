@@ -1,8 +1,7 @@
 package evenorodd
 
-import (
-	"testing"
-)
+import "testing"
+
 
 func TestOddNumber(t *testing.T) {
     input := 5
