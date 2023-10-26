@@ -1,5 +1,7 @@
 package removeduplicates
 
+// https://www.codewars.com/kata/5ba38ba180824a86850000f7 - 7
+
 func reverse(s []int) []int {
 	result := []int{}
 	for i := len(s) - 1; i >= 0; i-- {
