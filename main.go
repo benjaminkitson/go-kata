@@ -1,12 +1,13 @@
 package main
 
+// a test file
+
 import (
+	"bubblesortonce"
 	"fmt"
-	"removeduplicates"
 )
 
 func main() {
-	sliceBoi := []int{1,2,1,3,1}
-	result := removeduplicates.RemoveDuplicates(sliceBoi)
-	fmt.Println(result)
+	sliceBoi := []int{5,2,1,3,1}
+	fmt.Println(bubblesortonce.BubbleSortOnce(sliceBoi))
 }
