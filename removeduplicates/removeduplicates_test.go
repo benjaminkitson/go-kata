@@ -1,4 +1,4 @@
-package bubblesortonce
+package removeduplicates
 
 import (
 	"testing"
